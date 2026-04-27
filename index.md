@@ -3,7 +3,9 @@
 layout: default
 ---
 
-# THIS IS A BIG HEADER
+# Determining if Students Should do More Programming Practice
+
+This analysis compared the results of 3 different survey answers. The first chart explores the overall effectiveness of practice programming. The second chart depicts the overall effectiveness of ls questions. The last two charts each compare the resuls of the first two charts with the overall student preparedness of quizes. The goal of these charts is to determine if there is any correlation between the two different practice types, student preference, and quiz preparedness. 
 
 <!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
 
