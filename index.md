@@ -10,7 +10,7 @@ layout: default
 
 ## Chart 1: Number of Students and their Programming Effectiveness Rating
 
-<img src="<C:\Users\Thomas Shields\OneDrive - University of North Carolina at Chapel Hill\First Year\Sem 2\Comp110\personal-site.github.io\static\imgs\output.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+![alt text](output.png)
 
 ## Conclusion
 The idea I was trying test was whether this class should include more programming exercises because they would better aid students to prepare for quizzes. I included a graph to see how students viewed the effectiveness of programming practice. I then did the same to see how students viewed the effectiveness of ls questions, so I can compare the effectiveness of the two assignment types. I then used a helper function of my own design to isolate students with the least coding experience to determine if their results for programming effectiveness differed. Next, I compared programming effectivesness with quiz preparation to see if there was a correlation between the two. Finally I did the same with ls questoins to once again compare the two assignment types. 
