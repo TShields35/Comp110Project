@@ -10,6 +10,7 @@ layout: default
 
 ## Chart 1: Number of Students and their Programming Effectiveness Rating
 
+```python
 import seaborn as sns
 from data_utils import read_csv_rows, columnar, convert_columns_to_int
 
@@ -20,6 +21,7 @@ data_cols = columnar(data_rows)
 data_final = convert_columns_to_int(data_cols, ["programming_effective", "year"])
 
 sns.histplot(data=data_final, x="programming_effective")
+```
 
 ## Conclusion
 The idea I was trying test was whether this class should include more programming exercises because they would better aid students to prepare for quizzes. I included a graph to see how students viewed the effectiveness of programming practice. I then did the same to see how students viewed the effectiveness of ls questions, so I can compare the effectiveness of the two assignment types. I then used a helper function of my own design to isolate students with the least coding experience to determine if their results for programming effectiveness differed. Next, I compared programming effectivesness with quiz preparation to see if there was a correlation between the two. Finally I did the same with ls questoins to once again compare the two assignment types. 
