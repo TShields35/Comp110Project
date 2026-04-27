@@ -6,11 +6,24 @@ layout: default
 # THIS IS A BIG HEADER
 
 <!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
-<img src="<custom-path>/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
 
-## Chart 1: Number of Students and their Programming Effectiveness Rating
+
+## Chart 1: Number of Students and their Programming Practice Effectiveness Rating
 
 ![alt text](output.png)
+
+## Chart 2: Number of Students and their LS Question Effectiveness Rating
+
+![alt text](image.png)
+
+## Chart 3: Box Plot of Student Quiz Preparedness and Programing Practice Effectiveness
+
+![alt text](image-2.png)
+
+## Chart 4: Box Plot of Student Quiz Preparedness and LS Question Effectiveness Rating
+
+![alt text](image-3.png)
+
 
 ## Conclusion
 The idea I was trying test was whether this class should include more programming exercises because they would better aid students to prepare for quizzes. I included a graph to see how students viewed the effectiveness of programming practice. I then did the same to see how students viewed the effectiveness of ls questions, so I can compare the effectiveness of the two assignment types. I then used a helper function of my own design to isolate students with the least coding experience to determine if their results for programming effectiveness differed. Next, I compared programming effectivesness with quiz preparation to see if there was a correlation between the two. Finally I did the same with ls questoins to once again compare the two assignment types. 
